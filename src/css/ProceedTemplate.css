@@ -1,0 +1,55 @@
+.proceed-container{
+    display: flex;
+    margin-top: 3%;
+}
+
+.back-button{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer
+}
+
+.proceed-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px)
+{
+    .proceed-container{
+        margin-right: 0%;
+    }
+
+    .back-button{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+
+    .proceed-button{
+        height: 48px;
+    }
+}
+
+@media only screen and (min-width: 480px)
+{
+    .proceed-container{
+        margin-right: 8%;
+    }
+
+    .proceed-button{
+        flex:1;
+        height: 56px;
+    }
+
+    .back-button{
+        flex:3;
+    }
+}

@@ -1,0 +1,59 @@
+.choice-card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.choice-card .radio-button,
+.choice-card .image,
+.choice-card .text{
+    margin: 0 1.5%;
+}
+
+.one,.two{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px; */
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three{
+    flex: 7;
+    padding-left: 3%;
+    font-size: 20px;
+}
+
+.image-section {
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.semi{
+    width: 38%;
+    padding-right: 5%;
+}
+
+.full{
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    .choice-card {
+        height: "57px",
+    }
+}
+
+
+@media only screen and (min-width: 480px) {
+    .choice-card {
+        height: "64px",
+    }
+}
